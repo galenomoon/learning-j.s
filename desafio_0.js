@@ -12,3 +12,19 @@ const start = async () => { //criando function assincrona
 }
 
 start();  //executando a fuction
+
+
+const {question, close} = require (`./utils/readline`)
+
+const start = async() => {
+    try {
+        
+    } catch (error) {
+        console.error(erro)
+    } finally{
+        close();
+    }
+
+}
+
+start();
