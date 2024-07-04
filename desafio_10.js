@@ -18,6 +18,7 @@ const calculaPrecoAlcool = (quantosLitros) => {
 const start = async () => {
     try {
         const tipoDoMotor = await question("você escolhe gasolina ou alcool?: ")
+        
         const quantosLitros = await question(`quantos litros de ${tipoDoMotor} você quer?: `)
 
         if (tipoDoMotor == "gasolina") {
